@@ -72,7 +72,7 @@ DreamPRVR/
         └── TextData/
 ```
 
-We convert the `feature.bin`  into  `feature.hdf5` . Please refer to `Utils/convert_hdf5.py` (thanks to [FAWL](https://github.com/BUAAPY/FAWL)).
+We convert the `feature.bin`  into  `feature.hdf5` . Please refer to `src/Utils/convert_hdf5.py` (thanks to [FAWL](https://github.com/BUAAPY/FAWL)).
 
 Finally, set root and data_root in config files (*e.g.*, ./src/Configs/tvr.py `cfg['root']` and `cfg['data_root']`).
 
