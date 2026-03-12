@@ -82,7 +82,7 @@ def val_one_epoch(epoch, context_dataloader, query_eval_loader, model, val_crite
         es = False
         sc = 'New Best Model !!!'
         best_val = val_meter
-        # save_ckpt(model, optimizer, cfg, os.path.join(cfg['model_root'], 'best.ckpt'), epoch, best_val)
+        save_ckpt(model, optimizer, cfg, os.path.join(cfg['model_root'], 'best.ckpt'), epoch, best_val)
     else:
         es = True
         sc = 'A Relative Failure Epoch'
