@@ -102,9 +102,9 @@ For this repository, the expected performance is:
 
 | *Dataset* | *R@1* | *R@5* | *R@10* | *R@100* | *SumR* | *Logs* |*Ckpt*|
 | ---- | ---- | ---- | ---- | ---- | ---- |---- |---- |
-| ActivityNet Captions | 8.7 | 27.5 | 40.3 | 79.5 | 156.1 |[act-log](logs/act-log.txt) |[Google drive](https://drive.google.com/file/d/1B3mxKkUxtfNEggiJSwExFCV0gEbuZSzf/view?usp=sharing) |
-| Charades-STA | 2.6 | 8.7 | 14.5 | 54.2 | 80.0 |[cha-log](logs/cha-log.txt) |[Google drive](https://drive.google.com/file/d/1rwM7c63hGFWFENfWDOdnu-Pitzy9NOZJ/view?usp=sharing) |
-| TVR | 17.4 | 39.0 | 50.4 | 86.2 | 193.1 |[tvr-log](logs/tvr-log.txt) |[Google drive](https://drive.google.com/file/d/1NIl0x90qbdGxn9rwqVqS8MRpIdzKdPr1/view?usp=sharing) |
+| ActivityNet Captions | 8.7 | 27.5 | 40.3 | 79.5 | 156.1 |[act-log](logs/act-log.txt) |[Google drive] |
+| Charades-STA | 2.6 | 8.7 | 14.5 | 54.2 | 80.0 |[cha-log](logs/cha-log.txt) |[Google drive]|
+| TVR | 17.4 | 39.0 | 50.4 | 86.2 | 193.1 |[tvr-log](logs/tvr-log.txt) |[Google drive]|
 
 
 ## 4. References
