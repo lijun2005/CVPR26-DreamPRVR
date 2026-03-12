@@ -78,12 +78,6 @@ Finally, set root and data_root in config files (*e.g.*, ./src/Configs/tvr.py `c
 
 ## 3. Run
 ### 3.1 Train 
-To train DreamPRVR on TVR:
-```
-cd src
-python main.py -d tvr --gpu 0
-```
-
 To train DreamPRVR on ActivityNet Captions:
 ```
 cd src
@@ -94,6 +88,12 @@ To train DreamPRVR on Charades-STA:
 ```
 cd src
 python main.py -d cha --gpu 0
+```
+
+To train DreamPRVR on TVR:
+```
+cd src
+python main.py -d tvr --gpu 0
 ```
 
 ### 3.2 Retrieval Performance
