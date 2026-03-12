@@ -45,7 +45,7 @@ We train Charades-STA on Nvidia 3080 Ti with the environment:
 - torchvision==0.15.2
 
 We train TVR, ActivityNet Captions on Nvidia A100-40G with the environment:
-- python==3.11.8
+- python==3.9.17
 - pytorch==2.0.1
 - torchvision==0.15.2
 
