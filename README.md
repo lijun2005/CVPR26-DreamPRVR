@@ -39,19 +39,19 @@ cd CVPR26-DreamPRVR/
 ```
 
 ### 2.1 Requirements
-we train Charades-STA on Rtx 3080 Ti with the environment:
+We train Charades-STA on Nvidia 3080 Ti with the environment:
 - python==3.11.8
 - pytorch==2.0.1
 - torchvision==0.15.2
 
-we train TVR, ActivityNet Captions on Rtx A100-40G with the environment:
+We train TVR, ActivityNet Captions on Nvidia A100-40G with the environment:
 - python==3.11.8
 - pytorch==2.0.1
 - torchvision==0.15.2
 
 
 ### 2.2 Download the  feature datasets
-All features of TVR, ActivityNet Captions and Charades-STA can be downloaded from [Baidu pan](https://pan.baidu.com/s/1UNu67hXCbA6ZRnFVPVyJOA?pwd=8bh4) or [Google drive](https://drive.google.com/drive/folders/11dRUeXmsWU25VMVmeuHc9nffzmZhPJEj?usp=sharing) (provided by [ms-sl](https://github.com/HuiGuanLab/ms-sl)). 
+All features  can be downloaded from [Baidu pan](https://pan.baidu.com/s/1UNu67hXCbA6ZRnFVPVyJOA?pwd=8bh4) or [Google drive](https://drive.google.com/drive/folders/11dRUeXmsWU25VMVmeuHc9nffzmZhPJEj?usp=sharing) (thanks to [ms-sl](https://github.com/HuiGuanLab/ms-sl)). 
 
 **!!! Please note that we did not use any features derived from ViT.**
 
@@ -72,7 +72,7 @@ DreamPRVR/
         └── TextData/
 ```
 
-Then, we convert the `feature.bin` file into a `feature.hdf5` file. Please refer to `Utils/convert_hdf5.py` (inspired by [FAWL](https://github.com/BUAAPY/FAWL)).
+We convert the `feature.bin`  into  `feature.hdf5` . Please refer to `Utils/convert_hdf5.py` (thanks to [FAWL](https://github.com/BUAAPY/FAWL)).
 
 Finally, set root and data_root in config files (*e.g.*, ./src/Configs/tvr.py `cfg['root']` and `cfg['data_root']`).
 
@@ -100,7 +100,7 @@ python main.py -d cha --gpu 0
 
 For this repository, the expected performance is:
 
-| *Dataset* | *R@1* | *R@5* | *R@10* | *R@100* | *SumR* | *Logs* ||*Ckpt*|
+| *Dataset* | *R@1* | *R@5* | *R@10* | *R@100* | *SumR* | *Logs* |*Ckpt*|
 | ---- | ---- | ---- | ---- | ---- | ---- |---- |---- |
 | ActivityNet Captions | 8.7 | 27.5 | 40.3 | 79.5 | 156.1 |[act-log](logs/act-log.txt) |[Google drive](https://drive.google.com/file/d/1B3mxKkUxtfNEggiJSwExFCV0gEbuZSzf/view?usp=sharing) |
 | Charades-STA | 2.6 | 8.7 | 14.5 | 54.2 | 80.0 |[cha-log](logs/cha-log.txt) |[Google drive](https://drive.google.com/file/d/1rwM7c63hGFWFENfWDOdnu-Pitzy9NOZJ/view?usp=sharing) |
