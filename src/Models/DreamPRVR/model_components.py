@@ -64,55 +64,6 @@ class LinearLayer(nn.Module):
         return x  # (N, L, D)
 
 
-class HLFormerBlock(nn.Module):
-    def __init__(self, config):
-        super(HLFormerBlock, self).__init__()
-
-        self.num_block = config.attention_num
-        self.e_attns = nn.ModuleList()
-        self.e_attns.append(EuclideanAttentionBlock(config))
-        for i in range(-2,self.num_block-3):
-            wid = 2 ** i 
-            self.e_attns.append(EuclideanAttentionBlock(config, wid=wid))
-
-
-        self.ca = CrossAttention(config)
-        self.layer1 = nn.Linear(config.hidden_size, config.hidden_size)
-        self.dropout = nn.Dropout(config.hidden_dropout_prob)
-        self.layer2 = nn.Linear(config.hidden_size, config.frame_len)
-
-        self.sft_factor = config.sft_factor
-
-    def forward(self, input_tensor, attention_mask=None, weight_token=None):
-
-        outputs = []
-        for i in range(len(self.e_attns)):
-            o = self.e_attns[i](input_tensor, attention_mask).unsqueeze(-1)
-            outputs.append(o) 
-        oo = torch.cat(outputs, dim=-1)
-
-
-        if weight_token is None:
-            mean_oo = torch.mean(oo, dim=-1)#.squeeze())
-            weight_token =torch.mean(mean_oo,dim=1,keepdim=True)
-
-        else:
-            weight_token = weight_token.to(oo.device).type_as(oo).repeat(oo.shape[0], 1, 1)
-        weight = []
-        for i in range(oo.shape[-1]):
-            temp_token = self.ca(weight_token, oo[..., i], attention_mask)
-            weight.append(temp_token)
-
-        weight = torch.cat(weight, dim=1)    
-        weight = self.layer1(weight)
-        weight = self.dropout(F.relu(weight))
-        weight = self.layer2(weight)
-        
-        weight = F.softmax(weight.permute(0, 2, 1) / self.sft_factor, dim=-1)
-        out = torch.sum(oo * weight.unsqueeze(2).repeat(1, 1, oo.shape[2], 1), dim=-1)
-
-        return out
-
 
 class FeedForward(nn.Module):
 
