@@ -19,7 +19,7 @@
   - [6. Contact](#6-contact)
 
 ## 1. Introduction
-This repository contaithe **PyTorch** implementation of our work at **CVPR 2026 main**.:
+This repository contain the  implementation of our work at **CVPR 2026 main**:
 
 > [**Imagine Before Concentration: Diffusion-Guided Registers Enhance Partially Relevant Video Retrieval**] [Jun Li](https://github.com/lijun2005/), Xuhang Lou, [Jinpeng Wang](https://github.com/gimpong), Yuting Wang, Yaowei Wang, Shu-Tao Xia, Bin Chen.
 
