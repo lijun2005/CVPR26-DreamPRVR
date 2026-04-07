@@ -21,7 +21,7 @@
 ## 1. Introduction
 This repository contain the  implementation of our work at **CVPR 2026 main**:
 
-> [**Imagine Before Concentration: Diffusion-Guided Registers Enhance Partially Relevant Video Retrieval**] [Jun Li](https://github.com/lijun2005/), Xuhang Lou, [Jinpeng Wang](https://github.com/gimpong), Yuting Wang, Yaowei Wang, Shu-Tao Xia, Bin Chen.
+> [**Imagine Before Concentration: Diffusion-Guided Registers Enhance Partially Relevant Video Retrieval**](https://arxiv.org/abs/2604.03653) [Jun Li](https://github.com/lijun2005/), Xuhang Lou, [Jinpeng Wang](https://github.com/gimpong), Yuting Wang, Yaowei Wang, Shu-Tao Xia, Bin Chen.
 
 ![overview](figures/dreamprvr.png)
 we propose **DreamPRVR**, which adopts a coarse-to-fine  learning paradigm. 
