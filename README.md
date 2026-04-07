@@ -1,5 +1,7 @@
 # Imagine Before Concentration: Diffusion-Guided Registers Enhance Partially Relevant Video Retrieval
 
+[![arXiv](https://img.shields.io/badge/arXiv-2604.03653-b31b1b.svg?style=flat)](https://arxiv.org/abs/2604.03653)
+
 **:star: If **DreamPRVR** is helpful to your  projects, please help star this repo. Thanks! :hugs:**
 
 **We sincerely invite readers to refer to our previous work [ICCV25-HLFormer](https://github.com/lijun2005/ICCV25-HLFormer), as well as our curated [Awesome-PRVR](https://github.com/lijun2005/Awesome-Partially-Relevant-Video-Retrieval).**
