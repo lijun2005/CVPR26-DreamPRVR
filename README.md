@@ -102,7 +102,17 @@ For this repository, the expected performance is:
 
 ## 4. References
 If you find our code useful or use the toolkit in your work, please consider citing:
-
+```
+@misc{li2026dreamprvr,
+      title={Imagine Before Concentration: Diffusion-Guided Registers Enhance Partially Relevant Video Retrieval}, 
+      author={Jun Li and Xuhang Lou and Jinpeng Wang and Yuting Wang and Yaowei Wang and Shu-Tao Xia and Bin Chen},
+      year={2026},
+      eprint={2604.03653},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2604.03653}, 
+}
+```
 ## 5. Acknowledgements
 This code is based on  [HLFormer](https://github.com/lijun2005/ICCV25-HLFormer) and [GMMFormerV2](https://github.com/huangmozhi9527/GMMFormer_v2).
 We are also grateful for other teams for open-sourcing codes that inspire our work, including 
