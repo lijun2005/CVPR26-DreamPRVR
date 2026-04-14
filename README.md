@@ -1,6 +1,6 @@
 # Imagine Before Concentration: Diffusion-Guided Registers Enhance Partially Relevant Video Retrieval
 
-[![arXiv](https://img.shields.io/badge/arXiv-2604.03653-b31b1b.svg?style=flat)](https://arxiv.org/abs/2604.03653)
+[![arXiv](https://img.shields.io/badge/arXiv-2604.03653-b31b1b.svg?style=flat)](https://arxiv.org/abs/2604.03653) [![52CV](https://img.shields.io/badge/52CV-中文解读-pink.svg?style=flat)](https://mp.weixin.qq.com/s/ujSrjgdgLF4FO96-JB8feg) 
 
 **:star: If **DreamPRVR** is helpful to your  projects, please help star this repo. Thanks! :hugs:**
 
