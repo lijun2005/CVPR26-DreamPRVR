@@ -1,6 +1,6 @@
 # Imagine Before Concentration: Diffusion-Guided Registers Enhance Partially Relevant Video Retrieval
 
-[![arXiv](https://img.shields.io/badge/arXiv-2604.03653-b31b1b.svg?style=flat)](https://arxiv.org/abs/2604.03653) [![52CV](https://img.shields.io/badge/52CV-中文解读-pink.svg?style=flat)](https://mp.weixin.qq.com/s/ujSrjgdgLF4FO96-JB8feg) 
+[![CVPR](https://img.shields.io/badge/CVPR-Paper-blue.svg?style=flat)](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Imagine_Before_Concentration_Diffusion-Guided_Registers_Enhance_Partially_Relevant_Video_Retrieval_CVPR_2026_paper.html) [![arXiv](https://img.shields.io/badge/arXiv-2604.03653-b31b1b.svg?style=flat)](https://arxiv.org/abs/2604.03653) [![52CV](https://img.shields.io/badge/52CV-中文解读-pink.svg?style=flat)](https://mp.weixin.qq.com/s/ujSrjgdgLF4FO96-JB8feg) 
 
 **:star: If **DreamPRVR** is helpful to your  projects, please help star this repo. Thanks! :hugs:**
 
@@ -105,14 +105,13 @@ For this repository, the expected performance is:
 ## 4. References
 If you find our code useful or use the toolkit in your work, please consider citing:
 ```
-@misc{li2026dreamprvr,
-      title={Imagine Before Concentration: Diffusion-Guided Registers Enhance Partially Relevant Video Retrieval}, 
-      author={Jun Li and Xuhang Lou and Jinpeng Wang and Yuting Wang and Yaowei Wang and Shu-Tao Xia and Bin Chen},
-      year={2026},
-      eprint={2604.03653},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2604.03653}, 
+@InProceedings{dreamprvr,
+    author    = {Li, Jun and Lou, Xuhang and Wang, Jinpeng and Wang, Yuting and Wang, Yaowei and Xia, Shu-Tao and Chen, Bin},
+    title     = {Imagine Before Concentration: Diffusion-Guided Registers Enhance Partially Relevant Video Retrieval},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {9710-9721}
 }
 ```
 ## 5. Acknowledgements
