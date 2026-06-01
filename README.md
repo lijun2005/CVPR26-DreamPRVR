@@ -4,7 +4,7 @@
 
 **:star: If **DreamPRVR** is helpful to your  projects, please help star this repo. Thanks! :hugs:**
 
-**We sincerely invite readers to refer to our other works [ICCV25-HLFormer](https://github.com/lijun2005/ICCV25-HLFormer) [ICML26-Holmes](https://arxiv.org/abs/2605.06083), as well as our curated [Awesome-PRVR](https://github.com/lijun2005/Awesome-Partially-Relevant-Video-Retrieval).**
+**We sincerely invite readers to refer to our other works [ICCV25-HLFormer](https://github.com/lijun2005/ICCV25-HLFormer) [ICML26-Holmes](https://github.com/lijun2005/ICML26-Holmes), as well as our curated [Awesome-PRVR](https://github.com/lijun2005/Awesome-Partially-Relevant-Video-Retrieval).**
 
 ## TABLE OF CONTENTS
 - [Imagine Before Concentration: Diffusion-Guided Registers Enhance Partially Relevant Video Retrieval](#imagine-before-concentration-diffusion-guided-registers-enhance-partially-relevant-video-retrieval)
